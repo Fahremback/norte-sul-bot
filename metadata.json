@@ -1,0 +1,5 @@
+
+{
+  "name": "WhatsApp Printing Bot",
+  "description": "A Node.js application that automates a printing service via a WhatsApp bot using Baileys."
+}
