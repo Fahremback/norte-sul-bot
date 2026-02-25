@@ -1,14 +1,32 @@
-# Run and deploy your AI Studio app
+# 🤖 Norte Sul Bot — WhatsApp Automation
 
-This contains everything you need to run your app locally.
+> WhatsApp automation bot for customer service, built with Baileys (unofficial WhatsApp Web API). Handles receipt processing, automated responses, and payment confirmations.
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- **Automated customer service** — responds to common queries
+- **Receipt processing** — receives and stores payment receipts (images, PDFs)
+- **Real-time notifications** — alerts staff when new messages arrive
+- **Multi-format support** — handles text, images, documents, and audio messages
+- **Session persistence** — maintains WhatsApp connection across restarts
 
+## 🏗️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Component | Technology |
+|---|---|
+| Runtime | Node.js |
+| WhatsApp API | Baileys (Web Socket) |
+| Frontend | Vite (admin dashboard) |
+
+## 🚀 Getting Started
+
+```bash
+npm install
+node app.js
+```
+
+Scan the QR code with your WhatsApp to authenticate.
+
+## 📄 License
+
+Proprietary — Norte Sul Informática.
