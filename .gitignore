@@ -21,3 +21,11 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Data files (user uploads, receipts, etc.)
+impressoes_recebidas/
+*.jpeg
+*.jpg
+*.png
+*.pdf
+*.webp
